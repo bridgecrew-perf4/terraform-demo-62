@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  weather.api:
+    image: ${DOCKER_REGISTRY-}weather
+    build:
+      context: .
+      dockerfile: ./Dockerfile
