@@ -52,6 +52,6 @@ namespace Weather.Api
             {
                 endpoints.MapControllers();
             });
-        }
+        } 
     }
 }
